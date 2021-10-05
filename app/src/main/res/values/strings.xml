@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Coins</string>
+    <string name="error_default">Something goes wrong</string>
+</resources>

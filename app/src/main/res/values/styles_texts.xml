@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PrimaryTextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="PrimaryTextStyle">
+        <item name="android:textAppearance">@style/PrimaryTextAppearance</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+    <style name="SecondaryTextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="SecondaryTextStyle">
+        <item name="android:textAppearance">@style/SecondaryTextAppearance</item>
+        <item name="android:textColor">@color/textColorSecondary</item>
+    </style>
+
+    <style name="SmallTextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+
+    <style name="SmallTextStyle">
+        <item name="android:textAppearance">@style/SmallTextAppearance</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+</resources>

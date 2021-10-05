@@ -1,0 +1,342 @@
+{
+  "status": {
+    "timestamp": "2021-10-05T16:39:36.726Z",
+    "error_code": 0,
+    "error_message": null,
+    "elapsed": 9,
+    "credit_count": 1,
+    "notice": null
+  },
+  "data": [
+    {
+      "id": 1,
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "slug": "bitcoin",
+      "rank": 1,
+      "is_active": 1,
+      "first_historical_data": "2013-04-28T18:47:21.000Z",
+      "last_historical_data": "2021-10-05T16:29:02.000Z",
+      "platform": null
+    },
+    {
+      "id": 2,
+      "name": "Litecoin",
+      "symbol": "LTC",
+      "slug": "litecoin",
+      "rank": 17,
+      "is_active": 1,
+      "first_historical_data": "2013-04-28T18:47:22.000Z",
+      "last_historical_data": "2021-10-05T16:29:02.000Z",
+      "platform": null
+    },
+    {
+      "id": 3,
+      "name": "Namecoin",
+      "symbol": "NMC",
+      "slug": "namecoin",
+      "rank": 698,
+      "is_active": 1,
+      "first_historical_data": "2013-04-28T18:47:22.000Z",
+      "last_historical_data": "2021-10-05T16:29:02.000Z",
+      "platform": null
+    },
+    {
+      "id": 4,
+      "name": "Terracoin",
+      "symbol": "TRC",
+      "slug": "terracoin",
+      "rank": 2083,
+      "is_active": 1,
+      "first_historical_data": "2013-04-28T18:47:22.000Z",
+      "last_historical_data": "2021-10-05T16:29:02.000Z",
+      "platform": null
+    },
+    {
+      "id": 5,
+      "name": "Peercoin",
+      "symbol": "PPC",
+      "slug": "peercoin",
+      "rank": 744,
+      "is_active": 1,
+      "first_historical_data": "2013-04-28T18:47:23.000Z",
+      "last_historical_data": "2021-10-05T16:29:02.000Z",
+      "platform": null
+    },
+    {
+      "id": 8,
+      "name": "Feathercoin",
+      "symbol": "FTC",
+      "slug": "feathercoin",
+      "rank": 1182,
+      "is_active": 1,
+      "first_historical_data": "2013-05-03T03:25:15.000Z",
+      "last_historical_data": "2021-10-05T16:29:02.000Z",
+      "platform": null
+    },
+    {
+      "id": 10,
+      "name": "Freicoin",
+      "symbol": "FRC",
+      "slug": "freicoin",
+      "rank": 1817,
+      "is_active": 1,
+      "first_historical_data": "2013-05-03T03:25:15.000Z",
+      "last_historical_data": "2021-10-05T16:29:02.000Z",
+      "platform": null
+    },
+    {
+      "id": 13,
+      "name": "Ixcoin",
+      "symbol": "IXC",
+      "slug": "ixcoin",
+      "rank": 1452,
+      "is_active": 1,
+      "first_historical_data": "2013-05-08T05:20:18.000Z",
+      "last_historical_data": "2021-10-05T16:29:02.000Z",
+      "platform": null
+    },
+    {
+      "id": 16,
+      "name": "WorldCoin",
+      "symbol": "WDC",
+      "slug": "worldcoin",
+      "rank": 5446,
+      "is_active": 1,
+      "first_historical_data": "2013-05-22T03:20:20.000Z",
+      "last_historical_data": "2021-10-05T16:29:02.000Z",
+      "platform": null
+    },
+    {
+      "id": 18,
+      "name": "Digitalcoin",
+      "symbol": "DGC",
+      "slug": "digitalcoin",
+      "rank": 2066,
+      "is_active": 1,
+      "first_historical_data": "2013-06-09T17:55:21.000Z",
+      "last_historical_data": "2021-10-05T16:29:02.000Z",
+      "platform": null
+    },
+    {
+      "id": 25,
+      "name": "Goldcoin",
+      "symbol": "GLC",
+      "slug": "goldcoin",
+      "rank": 4701,
+      "is_active": 1,
+      "first_historical_data": "2013-06-14T06:45:28.000Z",
+      "last_historical_data": "2021-10-05T16:24:02.000Z",
+      "platform": null
+    },
+    {
+      "id": 32,
+      "name": "Fastcoin",
+      "symbol": "FST",
+      "slug": "fastcoin",
+      "rank": 2293,
+      "is_active": 1,
+      "first_historical_data": "2013-07-04T05:15:43.000Z",
+      "last_historical_data": "2021-10-05T16:29:03.000Z",
+      "platform": null
+    },
+    {
+      "id": 35,
+      "name": "Phoenixcoin",
+      "symbol": "PXC",
+      "slug": "phoenixcoin",
+      "rank": 1679,
+      "is_active": 1,
+      "first_historical_data": "2013-07-04T05:15:49.000Z",
+      "last_historical_data": "2021-10-05T16:29:03.000Z",
+      "platform": null
+    },
+    {
+      "id": 37,
+      "name": "Megacoin",
+      "symbol": "MEC",
+      "slug": "megacoin",
+      "rank": 2173,
+      "is_active": 1,
+      "first_historical_data": "2013-07-07T13:56:51.000Z",
+      "last_historical_data": "2021-10-05T16:29:02.000Z",
+      "platform": null
+    },
+    {
+      "id": 41,
+      "name": "Infinitecoin",
+      "symbol": "IFC",
+      "slug": "infinitecoin",
+      "rank": 887,
+      "is_active": 1,
+      "first_historical_data": "2013-07-10T13:27:02.000Z",
+      "last_historical_data": "2021-10-05T16:29:02.000Z",
+      "platform": null
+    },
+    {
+      "id": 42,
+      "name": "Primecoin",
+      "symbol": "XPM",
+      "slug": "primecoin",
+      "rank": 1300,
+      "is_active": 1,
+      "first_historical_data": "2013-07-11T03:21:19.000Z",
+      "last_historical_data": "2021-10-05T16:29:02.000Z",
+      "platform": null
+    },
+    {
+      "id": 43,
+      "name": "Anoncoin",
+      "symbol": "ANC",
+      "slug": "anoncoin",
+      "rank": 2281,
+      "is_active": 1,
+      "first_historical_data": "2013-07-15T01:31:35.000Z",
+      "last_historical_data": "2021-10-05T16:29:02.000Z",
+      "platform": null
+    },
+    {
+      "id": 45,
+      "name": "CasinoCoin",
+      "symbol": "CSC",
+      "slug": "casinocoin",
+      "rank": 3217,
+      "is_active": 1,
+      "first_historical_data": "2013-07-25T03:06:28.000Z",
+      "last_historical_data": "2021-10-05T16:29:03.000Z",
+      "platform": null
+    },
+    {
+      "id": 50,
+      "name": "Emerald Crypto",
+      "symbol": "EMD",
+      "slug": "emerald",
+      "rank": 2260,
+      "is_active": 1,
+      "first_historical_data": "2013-08-04T18:51:31.000Z",
+      "last_historical_data": "2021-10-05T16:29:03.000Z",
+      "platform": null
+    },
+    {
+      "id": 52,
+      "name": "XRP",
+      "symbol": "XRP",
+      "slug": "xrp",
+      "rank": 6,
+      "is_active": 1,
+      "first_historical_data": "2013-08-04T18:51:05.000Z",
+      "last_historical_data": "2021-10-05T16:29:03.000Z",
+      "platform": null
+    },
+    {
+      "id": 53,
+      "name": "Quark",
+      "symbol": "QRK",
+      "slug": "quark",
+      "rank": 1073,
+      "is_active": 1,
+      "first_historical_data": "2013-08-25T17:46:22.000Z",
+      "last_historical_data": "2021-10-05T16:29:03.000Z",
+      "platform": null
+    },
+    {
+      "id": 56,
+      "name": "Zetacoin",
+      "symbol": "ZET",
+      "slug": "zetacoin",
+      "rank": 2095,
+      "is_active": 1,
+      "first_historical_data": "2013-09-11T01:47:21.000Z",
+      "last_historical_data": "2021-10-05T16:29:03.000Z",
+      "platform": null
+    },
+    {
+      "id": 61,
+      "name": "TagCoin",
+      "symbol": "TAG",
+      "slug": "tagcoin",
+      "rank": 2148,
+      "is_active": 1,
+      "first_historical_data": "2013-11-05T13:32:08.000Z",
+      "last_historical_data": "2021-10-05T16:29:03.000Z",
+      "platform": null
+    },
+    {
+      "id": 64,
+      "name": "Public Index Network",
+      "symbol": "PIN",
+      "slug": "public-index-network",
+      "rank": 1349,
+      "is_active": 1,
+      "first_historical_data": "2013-11-27T06:01:46.000Z",
+      "last_historical_data": "2021-10-05T16:29:03.000Z",
+      "platform": null
+    },
+    {
+      "id": 66,
+      "name": "Nxt",
+      "symbol": "NXT",
+      "slug": "nxt",
+      "rank": 828,
+      "is_active": 1,
+      "first_historical_data": "2013-12-04T05:46:40.000Z",
+      "last_historical_data": "2021-10-05T16:29:03.000Z",
+      "platform": null
+    },
+    {
+      "id": 67,
+      "name": "Unobtanium",
+      "symbol": "UNO",
+      "slug": "unobtanium",
+      "rank": 5409,
+      "is_active": 1,
+      "first_historical_data": "2013-12-21T18:17:35.000Z",
+      "last_historical_data": "2021-10-05T16:29:03.000Z",
+      "platform": null
+    },
+    {
+      "id": 69,
+      "name": "Datacoin",
+      "symbol": "DTC",
+      "slug": "datacoin",
+      "rank": 2591,
+      "is_active": 1,
+      "first_historical_data": "2013-12-07T19:47:06.000Z",
+      "last_historical_data": "2021-10-05T16:29:03.000Z",
+      "platform": null
+    },
+    {
+      "id": 72,
+      "name": "Deutsche eMark",
+      "symbol": "DEM",
+      "slug": "deutsche-emark",
+      "rank": 2300,
+      "is_active": 1,
+      "first_historical_data": "2013-12-15T01:52:15.000Z",
+      "last_historical_data": "2021-10-05T16:29:03.000Z",
+      "platform": null
+    },
+    {
+      "id": 74,
+      "name": "Dogecoin",
+      "symbol": "DOGE",
+      "slug": "dogecoin",
+      "rank": 8,
+      "is_active": 1,
+      "first_historical_data": "2013-12-15T14:42:34.000Z",
+      "last_historical_data": "2021-10-05T16:29:03.000Z",
+      "platform": null
+    },
+    {
+      "id": 77,
+      "name": "Diamond",
+      "symbol": "DMD",
+      "slug": "diamond",
+      "rank": 1057,
+      "is_active": 1,
+      "first_historical_data": "2013-12-19T12:31:59.000Z",
+      "last_historical_data": "2021-10-05T16:29:03.000Z",
+      "platform": null
+    }
+  ]
+}
