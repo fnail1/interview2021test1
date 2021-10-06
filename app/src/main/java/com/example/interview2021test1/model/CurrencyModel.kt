@@ -1,6 +1,7 @@
 package com.example.interview2021test1.model
 
 import androidx.annotation.UiThread
+import com.example.interview2021test1.R
 import com.example.interview2021test1.api
 import com.example.interview2021test1.app
 import com.example.interview2021test1.model.types.Currency
@@ -15,7 +16,7 @@ class CurrencyModel {
     }
 
     private var data = ArrayList<Currency>()
-    private var lastItem = 0
+    private var offfset = 0
 
     val count: Int
         @UiThread
@@ -40,7 +41,7 @@ class CurrencyModel {
     @UiThread
     fun reset() {
         data = ArrayList()
-        lastItem = 0
+        offfset = 0
         error = false
         onDataChange()
         requestNextPage()
@@ -50,21 +51,22 @@ class CurrencyModel {
     fun requestNextPage() {
         ThreadPool.execute {
             try {
-                val response = api().getCurrencies(lastItem, PAGE_SIZE)
+                val response = api().getCurrencies(offfset, PAGE_SIZE)
                 val newData = response.data.map { MapHelper.toCurrency(it) }
-                lastItem += response.data.size
+                offfset += PAGE_SIZE
 
                 ThreadPool.UI.post {
                     data += newData
-                    eofReached = data.size == response.status.total_count
+                    eofReached = data.size >= response.status.total_count
                     onDataChange()
                 }
             } catch (e: IOException) {
                 e.printStackTrace()
+                app().showMessage(R.string.error_io)
                 error = true
             } catch (e: Exception) {
                 e.printStackTrace()
-                app().showMessage()
+                app().showMessage(R.string.error_default)
                 error = true
             } finally {
             }
@@ -72,8 +74,8 @@ class CurrencyModel {
     }
 
     // Это, конечно, очень топорная реализация Observer'а, обладающая рядом очевидных недостатоков.
-    // Но использовать здесь имеющуюся у нас в проекте будет нарушением NDA, а писать новую потянет
-    // на отдельное тестовое задание
+    // Но использовать здесь имеющуюся у нас будет нарушением NDA, а писать новую потянет на
+    // отдельное тестовое задание
     private val dataChangeListeners = LinkedList<DataChangeListener>()
 
     fun addDataChangeListener(listener: DataChangeListener) {

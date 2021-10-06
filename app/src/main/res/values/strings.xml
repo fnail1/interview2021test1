@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Coins</string>
-    <string name="error_default">Something goes wrong</string>
+    <string name="error_default">Something went wrong</string>
+    <string name="error_io">Error. Check your internet connection</string>
 </resources>

@@ -9,7 +9,7 @@ import java.net.URL
 import java.util.logging.Logger
 
 class CoinMarketCapApi {
-    val gson = Gson()
+    private val gson = Gson()
 
     fun getCurrencies(skip: Int, limit: Int): ApiCurrencyResponse {
         val uri =
@@ -26,8 +26,7 @@ class CoinMarketCapApi {
         connection.addRequestProperty("Connection", "Keep-Alive")
 
         try {
-            val responseCode = connection.responseCode
-            when (responseCode) {
+            when (val responseCode = connection.responseCode) {
                 HttpURLConnection.HTTP_OK -> {
                     return if (BuildConfig.DEBUG) {
                         val json = connection.inputStream.reader().use {

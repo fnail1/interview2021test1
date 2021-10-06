@@ -2,6 +2,7 @@ package com.example.interview2021test1
 
 import android.app.Application
 import android.widget.Toast
+import androidx.annotation.StringRes
 import com.example.interview2021test1.api.CoinMarketCapApi
 import com.example.interview2021test1.model.AppModelRoot
 import com.example.interview2021test1.toolkit.ThreadPool
@@ -22,9 +23,9 @@ class App : Application() {
         instance = this
     }
 
-    fun showMessage() {
+    fun showMessage(@StringRes messageResId: Int) {
         ThreadPool.UI.post {
-            Toast.makeText(this, R.string.error_default, Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, messageResId, Toast.LENGTH_SHORT).show()
         }
     }
 }
