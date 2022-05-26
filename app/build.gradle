@@ -6,6 +6,23 @@ plugins {
 android {
     compileSdk 31
 
+    signingConfigs {
+        release {
+            storeFile file('../keystore/keystore.jks')
+            storePassword 'oid049fuj395jut'
+            keyAlias 'Key0'
+            keyPassword 'oid049fuj395jut'
+        }
+        debug {
+            storeFile file('../keystore/keystore.jks')
+            storePassword 'oid049fuj395jut'
+            keyAlias 'Key0'
+            keyPassword 'oid049fuj395jut'
+        }
+    }
+
+
+
     defaultConfig {
         applicationId "com.example.interview2021test1"
         minSdk 23
@@ -20,6 +37,11 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+
+        debug {
+            signingConfig signingConfigs.debug
         }
     }
 
